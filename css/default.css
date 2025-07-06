@@ -1,0 +1,37 @@
+:root {
+  --black-900-main: #000000;
+  --black-800-main: #121212;
+  --black-700-main: #1f1f1f;
+  --black-600-main: #2c2c2c;
+  --black-500-main: #161212;
+  --white-main: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--black-600-main);
+}
+
+h2 {
+  font-family: "Roboto Condensed";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 115.556% */
+  letter-spacing: -0.5px;
+  color: var(--black-500-main);
+}
+
+h5 {
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+}
