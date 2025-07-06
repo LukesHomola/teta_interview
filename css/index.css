@@ -152,38 +152,4 @@ main div {
     text-decoration: underline;
     color: var(--black-600-main);
   }
-
-  /*   .product_table tr {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 1rem;
-  }
-
-  .product_table td:first-child {
-    min-width: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(192, 73, 73);
-    margin-right: 1rem;
-    display: flex;
-    align-items: center;
-  }
-
-  .product_table td:not(:first-child) {
-    flex: 1 1 calc(50% - 10px); 
-    margin-top: 0.5rem;
-    text-decoration: underline;
-    font-weight: 600;
-    cursor: pointer;
-  }
-
-  .product_table td:not(:first-child):hover {
-    color: red;
-  }
-
-  .product_table td div {
-    padding: 0.3rem 0;
-  } */
 }
